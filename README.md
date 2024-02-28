@@ -45,9 +45,15 @@
     </p>
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 애플리케이션은 서비스 인터페이스를 통해 디지털 트윈 모듈에 접근하여 자원들을 관리하며, 모델을 관리하기 위한 model managament, 보안정책을 관리하기 위한 policy managament, 현실 객체로 직접적인 통신을 위한 messages에 대한 요청을 할 수 있으며, 해당 요청을 받은 디지털 트윈 모듈은 내부적으로 해당 요청에 맞는 Handlers를 router가 호출하여 처리하게 되는데, 이때 디지털 트윈 모듈 Policy에 따라 사용자가 요청한 권한이 있는지 확인하는 과정을 거쳐 권한이 확인 사용자의 요청인 경우 요청을 정상적으로 처리하도록 설계하였음. </div> </br></br>
     <p align="center">
-    <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/e4b58d67-1e19-4e6b-905b-080402310904" width="650" height="250">
+    <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/2beabe4b-cfbe-4aee-8ad9-fd3aa368e08b" width="650" height="250">
     </p>
-    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 디지털 트윈 모듈 Policy는 애플리케이션에서 서비스 인터페이스를 통해 RESTful API 요청으로 관리할 수 있으며, URI를 통해 Policy 자원을 식별하고, Method를 통해 자원을 처리함. GET을 통해 Policy의 정보를 획득하며, PUT을 통해 Policy의 정보를 생성 및 수정하며, DELETE를 통해 삭제함.  </div> </br></br>
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 디지털 트윈 모듈 Policy는 애플리케이션에서 서비스 인터페이스를 통해 RESTful API 요청으로 관리할 수 있으며, URI를 통해 Policy 자원을 식별하고, Method를 통해 자원을 처리함. GET을 통해 Policy의 정보를 획득하며, PUT을 통해 Policy의 정보를 생성 및 수정하며, DELETE를 통해 삭제할 수 있도록 설계함.  </div> </br></br>
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Connectivity </h2> <br>
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> Connecitivity는 디지털 트윈 모듈과 현실 세계의 물리 객체와의 통신 프로토콜을 정의하여, 모델링된 디지털 트윈 모듈의 모델과 물리 객체와의 데이터 통신을 통해 실시간 연동이 가능하게 함.</div> </br></br>
+    <p align="center">
+    <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/25662c87-88cc-4680-a84c-4c73960d15da" width="750" height="300">
+    </p>
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;">디지털 트윈 모듈과 물리 객체간의 Connectivity는 websocket, mqtt, amqp 총 3개의 통신 프로토콜을 구축하여, 물리 객체의 센서 및 액츄에이터에서 발생하는 데이터 및 디지털 트윈 모듈의 모델 상태가 변경되면서 발생하는 데이터 등 Connectivity의 다중 동기화 통신 메커니즘을 통해 서로 실시간으로 연동할 수 있도록 설계하였음. </div> </br></br>
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
     <div style="margin: ; text-align: left;" "text-align: left;"> 
           <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=Go&logoColor=white">
