@@ -11,7 +11,8 @@
     <div style="text-align: left;">
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Model management </h2> <br>
     <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/ef90c0e5-c668-4d71-aecf-1a328ffc5503">
-    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 디지털 트윈 모듈은 현실 세계의 물리 객체를 하나의 모델로써 모델링하여 관리하며, 모델은 JSON 객체의 형식으로 설계하였음. 모델의 데이터는 모델의 주기 동안 비교적 값의 갱신이 적은 static data와 수시로 갱신이 이루어지는 variable data로 나누어 설계하였으며, 추가로 애플리케이션에서 해당 모델의 실제 물리 객체와의 직접적인 통신을 위한 messages를 위한 데이터로 구성하였음. </div> 
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 디지털 트윈 모듈은 현실 세계의 물리 객체를 하나의 모델로써 모델링하여 관리하며, 모델은 JSON 객체의 형식으로 설계하였음. 모델의 데이터는 모델의 주기 동안 비교적 값의 갱신이 적은 static data와 수시로 갱신이 이루어지는 variable data로 나누어 설계하였으며, 추가로 애플리케이션에서 해당 모델의 실제 물리 객체와의 직접적인 통신을 위한 messages를 위한 데이터로 구성하였음. </div>
+    <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/e4b58d67-1e19-4e6b-905b-080402310904">
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
     <div style="margin: ; text-align: left;" "text-align: left;"> 
           <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=Go&logoColor=white">
