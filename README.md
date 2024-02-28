@@ -31,9 +31,10 @@
     </p>
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 디지털 트윈 모듈은 애플리케이션의 RESTful API 요청 URI의 Query parameter에 포함된 RQL 조건식을 처리하기 위해 가장 먼저 Query parameter의 RQL 조건식을 식별하고 논리연산자 안에 포함된 관계연산자를 처리하여 만족하는 모델을 식별하고 각 관계연산자에서 식별된 모델들을 논리연산자에 의거하여 최종 만족하는 모델을 식별하는 방식으로 동작함. </div> </br></br>
     <p align="center">
-    <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/ee207094-97f8-495e-a8e1-5163464d932a" width="700" height="300">
+    <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/aabc264b-6fcd-46fa-aa75-dce80a17b959" width="700" height="250">
     </p>
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> sort 연산자의 경우 첫번째 옵션(option1)을 통해 데이터베이스에 저장된 디지털 트윈 모듈 모델들의 해당 <property> 값들을 정렬하여 결과 배열에 저장하고, 이때 동일한 값을 갖는 모델들의 경우 두번째 옵션(option2)을 통해 정렬하는 과정을 반복함. </div> </br></br>
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Digital Twin Module Policy </h2> <br>
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
     <div style="margin: ; text-align: left;" "text-align: left;"> 
           <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=Go&logoColor=white">
