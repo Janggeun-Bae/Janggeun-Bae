@@ -5,6 +5,18 @@
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">  </h2>  
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 디지털 트윈이란 현실 세계의 물리 객체를 가상 세계에 복제하여 가상 모델로써 관리하고, 물리 객체의 실시간 데이터를 연동하여 동작을 시뮬레이션하고 모니터링할 수 있도록 하는 기술임. </li></br></br></li>해당 프로젝트는 Golang을 통해 설계 및 구현된 디지털 트윈 모듈과, 데이터 연동을 위해 Python으로 구현된 현실 세계의 물리객체를 구현하고 해당 물리객체와 다중동기화메커니즘을 구현하고 연동하며, RESTful API를 통해 디지털 트윈 모듈의 모델들을 검증하고 관리하기 위해 HTML, CSS, JavasScript로 구현한 웹 애플리케이션으로 구성됨. </div> 
     </div>
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 기술 스택 </h2> 
+    <div style="margin: ; text-align: left;" "text-align: left;"> 
+          디지털 트윈 모듈 : <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=Go&logoColor=white"> </br>
+          물리 객체 : <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"></br>
+          애플리케이션 : <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
+          <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+          <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white">
+          <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jQuery&logoColor=white"></br>
+          데이터베이스 : <img src="https://img.shields.io/badge/redis-DC382D?style=for-the-badge&logo=Redis&logoColor=white">
+          <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white"></br>
+          개발환경 : <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=Linux&logoColor=white"></br>
+          </div>
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Digital Twin Architecture </h2> <br>
     <p align="center">
     <img src="https://github.com/Janggeun-Bae/DigitalTwin/assets/128579000/59907bc6-514c-4166-9b4b-904981e2179c" width="850" height="350">
@@ -70,20 +82,8 @@
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> events의 처리 로직은 events를 요청하는 events subscription, 등록된 events가 동작하는 events process, 등록된 events를 삭제하는 event deletion 단계를 분류할 수 있으며, 애플리케이션의 events 요청은 서비스 인터페이스를 통해 RESTful API 형식으로 요청하고 디지털 트윈 모듈과 물리 객체간의 Connectivity 통신 프로토콜을 준수하여 수행됨. </div></br></br>
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Application </h2> <br>
     <p align="center">
-    <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/e0231648-7517-49a0-b0ee-53fe2b08adb9" width="450" height="550">
+    <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/dde3a22e-397b-4ded-aeab-fcfadd8c108d" width="450" height="300">
     </p>
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 애플리케이션을 통해 디지털 트윈 모듈의 자원을 관리하기 위한 RESTful API를 요청하고 응답을 받을 수 있으며, 디지털 트윈 모듈 모델의 상태 변화를 실시간으로 수신할 수 있는 Server Sent Events 기능을 설계하였음. </div> </br></br>
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
-    <div style="margin: ; text-align: left;" "text-align: left;"> 
-          <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=Go&logoColor=white">
-          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"></br>
-          <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
-          <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-          <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white">
-          <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jQuery&logoColor=white"></br>
-          <img src="https://img.shields.io/badge/redis-DC382D?style=for-the-badge&logo=Redis&logoColor=white">
-          <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white"></br>
-          <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=Linux&logoColor=white"></br>
-          </div>
     </div>
     
