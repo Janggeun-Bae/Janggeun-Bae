@@ -59,7 +59,15 @@
     <p align="center">
     <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/cb6423f0-99e4-4731-8e66-a34ced324f66" width="850" height="350">
     </p>
-    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> messages 통신 중 behaviors의 경우 애플리케이션에서 서비스 인터페이스를 통해 messages를 요청하고 디지털 트윈 모듈은 해당 messages를 물리 객체에 전달함. messages를 요청받은 물리 객체는 messages에 대한 유효성을 검사한 뒤, behaviors의 요청을 수행한 뒤 결괏값을 도출하여 디지털 트윈 모듈에 전송하고, 최종적으로 디지털 트윈 모듈은 애플리케이션에 messages에 대한 결괏값을 응답해주는 형식으로 동작하는 단발성 통신임. </br> events의 경우 마찬가지로 애플리케이션의 요청을 디지털 트윈 모듈이 물리 객체에 전달하고 유효성을 검사한 물리 객체는 해당 events에 대한 이벤트가 발생할 때 마다 애플리케이션에게 응답해주는 형식으로 동작하는 다발성 통신임. </div> 
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> messages 통신 중 behaviors의 경우 애플리케이션에서 서비스 인터페이스를 통해 messages를 요청하고 디지털 트윈 모듈은 해당 messages를 물리 객체에 전달함. messages를 요청받은 물리 객체는 messages에 대한 유효성을 검사한 뒤, behaviors의 요청을 수행한 뒤 결괏값을 도출하여 디지털 트윈 모듈에 전송하고, 최종적으로 디지털 트윈 모듈은 애플리케이션에 messages에 대한 결괏값을 응답해주는 형식으로 동작하는 단발성 통신임. </br> events의 경우 마찬가지로 애플리케이션의 요청을 디지털 트윈 모듈이 물리 객체에 전달하고 유효성을 검사한 물리 객체는 해당 events에 대한 이벤트가 발생할 때 마다 애플리케이션에게 응답해주는 형식으로 동작하는 다발성 통신임. </div>
+    <p align="center">
+    <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/cb6423f0-99e4-4731-8e66-a34ced324f66" width="850" height="350">
+    </p>
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> behaviors의 처리 로직은 애플리케이션에서 서비스 인터페이스를 통한 RESTful API 요청을 디지털 트우니 모듈에 전송하고, 디지털 트윈 모듈은 해당 behaviors 요청을 Connectivity의 통신 프로토콜에 맞추어 정의하여 물리 객체에 전달함. behaviors를 요청 받은 물리 객체는 해당 beahviors 프로토콜을 분석하여 수행한 뒤 결과를 정의된 프로토콜에 맞게 생성하여 애플리케이션으로 응답하는 형식으로 처리함. </div>
+    <p align="center">
+    <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/cb6423f0-99e4-4731-8e66-a34ced324f66" width="850" height="350">
+    </p>
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> events의 처리 로직은 events를 요청하는 events subscription, 등록된 events가 동작하는 events process, 등록된 events를 삭제하는 event deletion 단계를 분류할 수 있으며, 애플리케이션의 events 요청은 서비스 인터페이스를 통해 RESTful API 형식으로 요청하고 디지털 트윈 모듈과 물리 객체간의 Connectivity 통신 프로토콜을 준수하여 수행됨. </div>
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
     <div style="margin: ; text-align: left;" "text-align: left;"> 
           <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=Go&logoColor=white">
