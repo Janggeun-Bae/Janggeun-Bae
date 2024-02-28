@@ -10,6 +10,7 @@
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 디지털 트윈 모듈은 현실 세계(Real World) 각각의 물리 객체(system)를 하나의 모델(model)로써 모델링하며, 물리 객체의 센서나 액츄에이터는 디지털 트윈 모듈 모델의 속성으로 정의하고 관리함. 디지털 트윈 모듈의 모델링된 모델과 현실 세계의 물리 객체는 Connectivity를 통해 실시간 연동함. 디지털 트윈 모듈은 모델링된 모델 및 자원들을 데이터베이스에 저장하고 관리하며, 해당 모델 및 자원에 접근하기 위해 웹 애플리케이션을 구성하였음. 애프리케이션과 디지털 트윈 모듈 간의 서비스 인터페이스를 설계하였으며, 애플리케이션에서 디지털 트윈 모듈로 모델에 대한 RESTful API request를 요청하고 디지털 트윈 모듈은 요청을 적절하게 처리하여 애플리케이션으로 RESTful API response하는 동작으로 구현함. 애플리케이션은 messages라는 통신을 통해 디지털 트윈 모듈을 거쳐 현실 세계의 물리 객체로 직접 접근할 수 있도록 하였음. </div> 
     <div style="text-align: left;">
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Model management </h2> <br>
+    <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/ef90c0e5-c668-4d71-aecf-1a328ffc5503">
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 디지털 트윈 모듈은 현실 세계의 물리 객체를 하나의 모델로써 모델링하여 관리하며, 모델은 JSON 객체의 형식으로 설계하였음. 모델의 데이터는 모델의 주기 동안 비교적 값의 갱신이 적은 static data와 수시로 갱신이 이루어지는 variable data로 나누어 설계하였으며, 추가로 애플리케이션에서 해당 모델의 실제 물리 객체와의 직접적인 통신을 위한 messages를 위한 데이터로 구성하였음. </div> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
     <div style="margin: ; text-align: left;" "text-align: left;"> 
