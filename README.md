@@ -1,5 +1,5 @@
 <div align= "center">
-    <img src="https://capsule-render.vercel.app/api?type=soft&color=303e82&height=120&text=Digital%20Twin%20Module&animation=&fontColor=f8f7f7&fontSize=70" />
+    <img src="https://capsule-render.vercel.app/api?type=soft&color=59a2cf&height=120&text='Digital%20Twin%20Module'%20Development%20Log&animation=&fontColor=ffffff&fontSize=40" />
     </div>
     <div style="text-align: left;"> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">  </h2>  
@@ -35,6 +35,11 @@
     </p>
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> sort 연산자의 경우 첫번째 옵션(option1)을 통해 데이터베이스에 저장된 디지털 트윈 모듈 모델들의 해당 <property> 값들을 정렬하여 결과 배열에 저장하고, 이때 동일한 값을 갖는 모델들의 경우 두번째 옵션(option2)을 통해 정렬하는 과정을 반복함. </div> </br></br>
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Digital Twin Module Policy </h2> <br>
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 디지털 트윈 모듈 Policy란 디지털 트윈 모듈의 자원들에 대하여 사용자별로 각각 다른 접근 권한을 부여하여 디지털 트윈 모듈의 자원들을 효율적이고 안전하게 관리하고자 개발한 보안정책임. Policy는 Json 객체의 형식으로 정의하여 관리함. </div> </br></br>
+    <p align="center">
+    <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/aabc264b-6fcd-46fa-aa75-dce80a17b959" width="700" height="250">
+    </p>
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> Policy는 고유의 PolicyId를 속성으로 갖고, entries에는 사용자 별로 자원에 대한 접근 권한을 부여함. 사용자의 하위 속성으로 subjects에는 사용자에 대한 설명 및 권한이 만료되는 시간을 설정할 수 있고, resources에 각 자원에 대한 접근 권한을 설정할 수 있음. 모델에 대한 접근 권한은 entity:/, 보안정책 Policy에 대한 접근 권한은 policy:/, messages에 대한 권한은 message:/로 구분하여 권한을 부여하며 /로 구분하여 하위 속성에 관하여 권한을 부여하는 것도 가능함. 사용자의 권한은 자원에 대한 READ, WRITE 권한을 부여할 수 있으며, grant 속성에는 부여하는 권한, revoke에는 부여하지 않는 권한을 정의함. </div> </br></br>
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
     <div style="margin: ; text-align: left;" "text-align: left;"> 
           <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=Go&logoColor=white">
