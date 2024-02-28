@@ -27,9 +27,13 @@
     </p>
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 디지털 트윈 모듈의 모델들을 효율적으로 관리하기 위해 RESTful API의 URI Query parameter에 조건식을 정의하여 모델을 식별할 수 있도록 하였음. 조건식은 Resource Query Language(RQL)로 구성할 수 있으며, RQL은 SQL과 유사한 구조적 쿼리 언어로써, 논리연산자(Logical operators)와 관계연산자(Relational operators) 및 정렬을 위한 sort 연산자로 구성하여 설계하였음. </div> </br></br>
     <p align="center">
-    <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/766acd74-2948-4607-894c-22ee54159dcd" width="700" height="350">
+    <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/ee207094-97f8-495e-a8e1-5163464d932a" width="700" height="300">
     </p>
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 디지털 트윈 모듈은 애플리케이션의 RESTful API 요청 URI의 Query parameter에 포함된 RQL 조건식을 처리하기 위해 가장 먼저 Query parameter의 RQL 조건식을 식별하고 논리연산자 안에 포함된 관계연산자를 처리하여 만족하는 모델을 식별하고 각 관계연산자에서 식별된 모델들을 논리연산자에 의거하여 최종 만족하는 모델을 식별하는 방식으로 동작함. </div> </br></br>
+    <p align="center">
+    <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/ee207094-97f8-495e-a8e1-5163464d932a" width="700" height="300">
+    </p>
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> sort 연산자의 경우 첫번째 옵션(option1)을 통해 데이터베이스에 저장된 디지털 트윈 모듈 모델들의 해당 <property> 값들을 정렬하여 결과 배열에 저장하고, 이때 동일한 값을 갖는 모델들의 경우 두번째 옵션(option2)을 통해 정렬하는 과정을 반복함. </div> </br></br>
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
     <div style="margin: ; text-align: left;" "text-align: left;"> 
           <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=Go&logoColor=white">
