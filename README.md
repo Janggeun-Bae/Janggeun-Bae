@@ -51,9 +51,15 @@
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Connectivity </h2> <br>
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> Connecitivity는 디지털 트윈 모듈과 현실 세계의 물리 객체와의 통신 프로토콜을 정의하여, 모델링된 디지털 트윈 모듈의 모델과 물리 객체와의 데이터 통신을 통해 실시간 연동이 가능하게 함.</div> </br></br>
     <p align="center">
-    <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/25662c87-88cc-4680-a84c-4c73960d15da" width="750" height="300">
+    <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/7a65e053-1e8d-4e3b-85a3-584e7e8cd76b" width="400" height="400">
     </p>
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;">디지털 트윈 모듈과 물리 객체간의 Connectivity는 websocket, mqtt, amqp 총 3개의 통신 프로토콜을 구축하여, 물리 객체의 센서 및 액츄에이터에서 발생하는 데이터 및 디지털 트윈 모듈의 모델 상태가 변경되면서 발생하는 데이터 등 Connectivity의 다중 동기화 통신 메커니즘을 통해 서로 실시간으로 연동할 수 있도록 설계하였음. </div> </br></br>
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Messages </h2> <br>
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> messages는 애플리케이션 상에서 현실 세계의 물리 객체를 직접적으로 제어하기 위한 통신으로써 디지털 트윈 모듈이 통신의 브로커 역할을 하며, 통신 방식에 따라 behaviors와 events로 구분하여 설계하였음. </div> </br></br>
+    <p align="center">
+    <img src="https://github.com/Janggeun-Bae/DigitalTwin/assets/128579000/59907bc6-514c-4166-9b4b-904981e2179c" width="850" height="350">
+    </p>
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> messages 통신 중 behaviors의 경우 애플리케이션에서 서비스 인터페이스를 통해 messages를 요청하고 디지털 트윈 모듈은 해당 messages를 물리 객체에 전달함. messages를 요청받은 물리 객체는 messages에 대한 유효성을 검사한 뒤, behaviors의 요청을 수행한 뒤 결괏값을 도출하여 디지털 트윈 모듈에 전송하고, 최종적으로 디지털 트윈 모듈은 애플리케이션에 messages에 대한 결괏값을 응답해주는 형식으로 동작하는 단발성 통신임. </br> events의 경우 마찬가지로 애플리케이션의 요청을 디지털 트윈 모듈이 물리 객체에 전달하고 유효성을 검사한 물리 객체는 해당 events에 대한 이벤트가 발생할 때 마다 애플리케이션에게 응답해주는 형식으로 동작하는 다발성 통신임. </div> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
     <div style="margin: ; text-align: left;" "text-align: left;"> 
           <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=Go&logoColor=white">
