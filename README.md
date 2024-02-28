@@ -1,3 +1,4 @@
+현재 진행중인 국가 과제라 코드 공개가 어려워, 개발 내용을 정리한 자료로 대체하는 점 양해 부탁드립니다.
 <div align= "center">
     <img src="https://capsule-render.vercel.app/api?type=soft&color=59a2cf&height=120&text='Digital%20Twin%20Module'%20Development%20Log&animation=&fontColor=ffffff&fontSize=40" />
     </div>
