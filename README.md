@@ -90,7 +90,7 @@
     </div>
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Verification </h2> <br>
     <p align="center">
-    <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/dde3a22e-397b-4ded-aeab-fcfadd8c108d" width="450" height="350">
+    <img src="https://github.com/Janggeun-Bae/Janggeun-Bae/assets/128579000/9f8e715b-7583-4b0b-85f9-068e2db5e792" width="450" height="350">
     </p>
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 개발한 디지털 트윈 모듈을 검증하기 위하여 분원에서 구축한 스마트팜 테스트베드를 활용함. 테스트베드는 크게 대기(Atmosphere), 토양(Soil), 배액(Drain)으로 분류하여 각 센서들을 활용하여 데이터를 생성하며, 디지털 트윈 모듈은 테스트베드에 맞춰 smartfarm이라는 모델을 생성하고 해당 테스트베드와 설계한 Connectivity를 통해 데이터를 연동함. 이후, 연동된 디지털 트윈 모듈의 smartfarm 모델을 관리하고 가시화하기 위하여 Unity로 구축한 3D 모델을 활용하였음. 결과적으로 웹을 통해 3D 모델로 가시화된 테스트베드의 데이터를 실시간으로 확인하고 테스트베드의 데이터를 관리하고 제어하는 것이 가능함.</div> </br></br>
     </div>
