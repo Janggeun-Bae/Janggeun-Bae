@@ -4,7 +4,7 @@
     </div>
     <div style="text-align: left;"> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">  </h2>  
-    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 디지털 트윈이란 현실 세계의 물리 객체를 가상 세계에 복제하여 가상 모델로써 관리하고, 물리 객체의 실시간 데이터를 연동하여 동작을 시뮬레이션하고 모니터링할 수 있도록 하는 기술임. </li></br></br></li>해당 프로젝트는 Golang을 통해 설계 및 구현된 디지털 트윈 모듈과, 데이터 연동을 위해 Python으로 구현된 현실 세계의 물리객체를 구현하고 해당 물리객체와 다중동기화메커니즘을 구현하고 연동하며, RESTful API를 통해 디지털 트윈 모듈의 모델들을 검증하고 관리하기 위해 HTML, CSS, JavasScript로 구현한 웹 애플리케이션으로 구성됨. </div> 
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 디지털 트윈이란 현실 세계의 물리 객체를 가상 세계에 복제하여 가상 모델로써 관리하고, 물리 객체의 실시간 데이터를 연동하여 동작을 시뮬레이션하고 모니터링할 수 있도록 하는 기술임. </li></br></br></li>해당 프로젝트는 Golang을 통해 설계 및 구현된 디지털 트윈 모듈과, 데이터 연동을 위해 Java와 Python으로 구현된 현실 세계의 물리객체를 구현하고 해당 물리객체와 다중동기화메커니즘을 구현하고 연동하며, RESTful API를 통해 디지털 트윈 모듈의 모델들을 검증하고 관리하기 위해 HTML, CSS, JavasScript로 구현한 웹 애플리케이션으로 구성됨. </div> 
     </div>
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 기술 스택 </h2> 
     <div style="margin: ; text-align: left;" "text-align: left;"> 
